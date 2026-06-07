@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+import profileImg from "../../../public/profile.webp";
+
 export default function HeroImage() {
   return (
     <div className="relative flex items-center justify-center animate-fade-in-up delay-200">
@@ -21,12 +23,13 @@ export default function HeroImage() {
       {/* Image Card */}
       <div className="relative z-10 w-[280px] sm:w-[320px] h-[340px] sm:h-[400px] lg:w-[320px] lg:h-[420px] xl:w-[400px] xl:h-[520px] 2xl:w-[470px] 2xl:h-[600px] rounded-[2rem] overflow-hidden shadow-xl shadow-gray-200/60 border border-gray-100 mx-auto flex-shrink-0">
         <Image
-          src="/profile.png"
+          src={profileImg}
           alt="SIVA HARISH - Backend & Flutter Developer"
-          fill
-          className="object-cover object-top"
-          sizes="(max-width: 640px) 280px, (max-width: 1024px) 300px, 340px"
-          preload
+          className="w-full h-full object-cover object-top"
+          sizes="(max-width: 640px) 280px, (max-width: 1024px) 320px, (max-width: 1280px) 400px, 470px"
+          priority
+          loading="eager"
+          placeholder="blur"
         />
 
         {/* Bottom gradient overlay */}

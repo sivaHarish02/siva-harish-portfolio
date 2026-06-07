@@ -51,10 +51,10 @@ export default function Footer() {
 
         {/* Bottom Line */}
         <div className="mt-8 pt-8 border-t border-gray-50 flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
-          <p className="text-xs text-gray-400">
+          <p className="text-xs text-gray-500">
             &copy; 2026 Siva Harish S. All rights reserved.
           </p>
-          <p className="text-xs text-gray-400">
+          <p className="text-xs text-gray-500">
             Built with React, Tailwind CSS and Framer Motion.
           </p>
         </div>

@@ -20,11 +20,13 @@ export default function AboutImage() {
       >
         <div className="relative w-full aspect-[4/5] sm:aspect-square lg:aspect-[4/5]">
           <Image
-            src="/profile.png"
+            src="/profile.webp"
             alt="SIVA HARISH - Backend Engineer"
-            fill
-            className="object-cover object-top"
+            width={1024}
+            height={683}
+            className="w-full h-full object-cover object-top"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
+            loading="lazy"
           />
         </div>
       </motion.div>

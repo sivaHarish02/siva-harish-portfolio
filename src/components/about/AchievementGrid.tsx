@@ -62,9 +62,9 @@ export default function AchievementGrid() {
           className="p-5 rounded-2xl bg-white border border-gray-100 shadow-lg shadow-gray-200/40 transition-shadow hover:shadow-xl hover:shadow-[#6D5DFC]/10 flex flex-col gap-1"
         >
           <div className="flex items-baseline gap-2">
-            <h3 className="text-3xl font-black text-gray-900 leading-none">
+            <div className="text-3xl font-black text-gray-900 leading-none">
               {item.title}
-            </h3>
+            </div>
           </div>
           <p className="text-sm font-bold text-[#6D5DFC] mt-1">
             {item.subtitle}

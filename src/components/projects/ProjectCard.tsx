@@ -46,7 +46,7 @@ export default function ProjectCard({ data, variants }: ProjectCardProps) {
           {data.description}
         </p>
         <div className="flex items-center gap-2">
-          <span className="text-[11px] font-bold text-gray-400 uppercase tracking-wider">
+          <span className="text-[11px] font-bold text-gray-500 uppercase tracking-wider">
             My Role:
           </span>
           <span className="text-sm font-semibold text-gray-900">
@@ -89,7 +89,10 @@ export default function ProjectCard({ data, variants }: ProjectCardProps) {
           View Case Study
           <ArrowUpRight className="w-4 h-4" />
         </button>
-        <button className="flex items-center justify-center w-10 h-10 bg-gray-50 hover:bg-gray-100 text-gray-700 rounded-xl transition-colors border border-gray-200">
+        <button 
+          aria-label="View source code"
+          className="flex items-center justify-center w-10 h-10 bg-gray-50 hover:bg-gray-100 text-gray-700 rounded-xl transition-colors border border-gray-200"
+        >
           <Terminal className="w-4 h-4" />
         </button>
       </div>

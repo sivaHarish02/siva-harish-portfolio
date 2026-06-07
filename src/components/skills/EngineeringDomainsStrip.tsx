@@ -23,7 +23,7 @@ export default function EngineeringDomainsStrip() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="mt-12 lg:mt-16 w-full bg-gradient-to-r from-gray-50 via-white to-gray-50 border border-gray-100 rounded-[1.5rem] p-6 sm:p-8 shadow-sm flex flex-col items-center text-center"
     >
-      <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-6">
+      <h4 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">
         Engineering Domains
       </h4>
       <div className="flex flex-wrap justify-center gap-3 sm:gap-4 max-w-4xl mx-auto">

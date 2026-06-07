@@ -23,7 +23,7 @@ export default function EngineeringPrinciples() {
       transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
       className="mt-16 w-full flex flex-col items-center text-center"
     >
-      <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-6">
+      <h4 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">
         Engineering Principles
       </h4>
       

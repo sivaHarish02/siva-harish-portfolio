@@ -34,7 +34,7 @@ export default function AvailabilityCard() {
             <MapPin className="w-5 h-5 text-purple-600" />
           </div>
           <div className="flex flex-col">
-            <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-0.5">
+            <span className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-0.5">
               Location
             </span>
             <span className="text-sm font-semibold text-gray-900">
@@ -48,7 +48,7 @@ export default function AvailabilityCard() {
             <Briefcase className="w-5 h-5 text-blue-600" />
           </div>
           <div className="flex flex-col">
-            <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-0.5">
+            <span className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-0.5">
               Focus Areas
             </span>
             <span className="text-sm font-semibold text-gray-900 leading-relaxed">
