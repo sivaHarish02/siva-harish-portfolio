@@ -4,6 +4,8 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+import profileImg from "../../../public/profile.webp";
+
 export default function AboutImage() {
   return (
     <div className="relative w-full max-w-md mx-auto lg:max-w-none">
@@ -20,13 +22,12 @@ export default function AboutImage() {
       >
         <div className="relative w-full aspect-[4/5] sm:aspect-square lg:aspect-[4/5]">
           <Image
-            src="/profile.webp"
+            src={profileImg}
             alt="SIVA HARISH - Backend Engineer"
-            width={1024}
-            height={683}
             className="w-full h-full object-cover object-top"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
             loading="lazy"
+            placeholder="blur"
           />
         </div>
       </motion.div>
