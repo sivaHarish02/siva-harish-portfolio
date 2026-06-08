@@ -51,9 +51,9 @@ export const metadata: Metadata = {
     siteName: "Siva Harish Portfolio",
     images: [
       {
-        url: "https://siva-harish-portfolio.vercel.app/og-image.png",
+        url: "https://siva-harish-portfolio.vercel.app/og-image-square.png",
         width: 1200,
-        height: 630,
+        height: 1200,
         alt: "Siva Harish Portfolio",
       },
     ],
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Siva Harish | Backend Engineer & Flutter Developer",
     description: "Building Scalable APIs, Payment Systems & Real-Time Applications",
-    images: ["https://siva-harish-portfolio.vercel.app/og-image.png"],
+    images: ["https://siva-harish-portfolio.vercel.app/og-image-square.png"],
   },
   robots: {
     index: true,
