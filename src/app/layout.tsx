@@ -28,10 +28,10 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sivaharish.com"),
+  metadataBase: new URL("https://siva-harish-portfolio.vercel.app"),
   title: "Siva Harish | Backend Engineer & Flutter Developer",
   description:
-    "Backend Engineer & Flutter Developer specializing in Node.js, Flutter, MySQL, Payment Systems, Real-Time Applications, and Production Engineering.",
+    "Backend Engineer & Flutter Developer specializing in Node.js, Flutter, MySQL, Payment Systems, Real-Time Applications and Production Engineering.",
   keywords: [
     "Siva Harish",
     "Backend Engineer",
@@ -46,23 +46,29 @@ export const metadata: Metadata = {
   authors: [{ name: "Siva Harish" }],
   openGraph: {
     title: "Siva Harish | Backend Engineer & Flutter Developer",
-    description: "Building scalable APIs, payment systems, real-time applications, and mobile solutions.",
-    type: "website",
-    url: "/",
+    description: "Building Scalable APIs, Payment Systems & Real-Time Applications",
+    url: "https://siva-harish-portfolio.vercel.app",
+    siteName: "Siva Harish Portfolio",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://siva-harish-portfolio.vercel.app/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Siva Harish | Backend Engineer & Flutter Developer",
+        alt: "Siva Harish Portfolio",
       },
     ],
+    locale: "en_US",
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Siva Harish | Backend Engineer & Flutter Developer",
-    description: "Building scalable APIs, payment systems, real-time applications, and mobile solutions.",
-    images: ["/og-image.png"],
+    description: "Building Scalable APIs, Payment Systems & Real-Time Applications",
+    images: ["https://siva-harish-portfolio.vercel.app/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
   alternates: {
     canonical: "/",
