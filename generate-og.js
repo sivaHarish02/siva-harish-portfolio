@@ -28,7 +28,7 @@ const svg = `
   <text x="80" y="100" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="24" fill="#6D5DFC" letter-spacing="4">SIVA HARISH S</text>
 
   <!-- Main heading -->
-  <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="96" fill="#111827" letter-spacing="-3">Backend Engineer</text>
+  <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="96" fill="#111827" letter-spacing="-3">Backend Developer</text>
   <text x="80" y="340" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="96" fill="#111827" letter-spacing="-3">Flutter Developer</text>
 
   <!-- Subheading -->
