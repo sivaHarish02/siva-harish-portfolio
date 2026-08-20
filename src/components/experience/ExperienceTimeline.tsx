@@ -32,7 +32,7 @@ const experienceData: ExperienceData[] = [
   {
     role: "Back End Developer",
     company: "ELANOXTECH",
-    duration: "Oct 2024 – Sep 2025",
+    duration: "July 2024 – Sep 2025",
     description:
       "Started my professional journey by building production backend APIs, database architectures, payment workflows, notification systems, and deployment workflows.",
     responsibilities: [
@@ -111,9 +111,8 @@ export default function ExperienceTimeline() {
           return (
             <div
               key={index}
-              className={`relative flex flex-col lg:flex-row items-start lg:items-center w-full ${
-                isLeft ? "lg:justify-start" : "lg:justify-end"
-              }`}
+              className={`relative flex flex-col lg:flex-row items-start lg:items-center w-full ${isLeft ? "lg:justify-start" : "lg:justify-end"
+                }`}
             >
               {/* Timeline Node */}
               <motion.div
@@ -130,9 +129,8 @@ export default function ExperienceTimeline() {
 
               {/* Card Container */}
               <div
-                className={`w-full pl-16 lg:pl-0 lg:w-[calc(50%-3rem)] ${
-                  isLeft ? "" : ""
-                }`}
+                className={`w-full pl-16 lg:pl-0 lg:w-[calc(50%-3rem)] ${isLeft ? "" : ""
+                  }`}
               >
                 <ExperienceCard
                   data={exp}
